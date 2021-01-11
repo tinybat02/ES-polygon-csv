@@ -1,0 +1,24 @@
+{
+  "name": "es-polygon-csv",
+  "version": "1.0.0",
+  "description": "ES Polygon CSV",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "Nam Le",
+  "license": "MIT",
+  "devDependencies": {
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.3",
+    "react-dropdown": "^1.9.1",
+    "react-dropzone": "^11.2.4",
+    "use-csv-downloader": "0.0.0"
+  }
+}
