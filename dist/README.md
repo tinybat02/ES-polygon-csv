@@ -1,4 +1,6 @@
-# Polygon CSV
+# Simple React Panel
+
+This is just a stub to show how you can create a basic visualization plugin.
 
 First, install dependencies:
 
